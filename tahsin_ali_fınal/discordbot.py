@@ -19,7 +19,7 @@ async def on_message(message):
         await message.channel.send(f'As Ben {client.user} Nasıl yardımcı olabilirim?')
 
     elif message.content.startswith('/iklim'):
-        await message.channel.send(f'İKLİM DEĞİŞİKLİĞİ HAKKINDAKİ KODLAR: 1) /nedir  2) /ciddiliği  3) /nedenler  4) /önlemler')
+        await message.channel.send(f'İKLİM DEĞİŞİKLİĞİ HAKKINDAKİ KODLAR: 1) /nedir  2) /ciddiliği  3) /nedenler  4) /önlemler 5) /ekstrax')
 
     elif message.content.startswith('/nedir'):
         await message.channel.send(f' Ben MUNDO iklim değişikliği: nedeni ne olursa olsun iklimin ortalama durumunda ve değişkenliğinde onlarca yıl ya da daha uzun süre boyunca gerçekleşen değişiklikler')
@@ -34,4 +34,6 @@ async def on_message(message):
     elif message.content.startswith('/önlemler'):
         await message.channel.send(f' Ben MUNDO Sera Gazlarını Azaltın: Yenilenebilir enerji kaynaklarını kullanın ve enerji tasarrufu yapın.Ormanları Korumak: Ağaç dikme ve ormanları koruma projelerini destekleyin.Sürdürülebilir Tarım: Tarım yöntemlerini daha sürdürülebilir hale getirin.Ulaşımı Düzenleyin: Toplu taşıma, bisiklet ve elektrikli araçları tercih edin.Geri Dönüşüm: Atıkları azaltın ve geri dönüşüm yapın.Bu adımlar, iklim değişikliğinin etkilerini azaltmada önemli rol oynar.')
 
+    elif message.content.startswith('/ekstra'):
+        await message.channel.send(f' Ben MUNDO daha fazla bilgi için linke tıklayınız: http://127.0.0.1:5000/ ')
 client.run("")
