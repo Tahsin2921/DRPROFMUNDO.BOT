@@ -35,5 +35,5 @@ async def on_message(message):
         await message.channel.send(f' Ben MUNDO Sera Gazlarını Azaltın: Yenilenebilir enerji kaynaklarını kullanın ve enerji tasarrufu yapın.Ormanları Korumak: Ağaç dikme ve ormanları koruma projelerini destekleyin.Sürdürülebilir Tarım: Tarım yöntemlerini daha sürdürülebilir hale getirin.Ulaşımı Düzenleyin: Toplu taşıma, bisiklet ve elektrikli araçları tercih edin.Geri Dönüşüm: Atıkları azaltın ve geri dönüşüm yapın.Bu adımlar, iklim değişikliğinin etkilerini azaltmada önemli rol oynar.')
 
     elif message.content.startswith('/ekstra'):
-        await message.channel.send(f' Ben MUNDO daha fazla bilgi için linke tıklayınız: http://127.0.0.1:5000/ ')
+        await message.channel.send(f' Ben MUNDO daha fazla bilgi için linke tıklayınız: https://keyshot47.pythonanywhere.com ')
 client.run("")
